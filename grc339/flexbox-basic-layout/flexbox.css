@@ -75,6 +75,8 @@ a {
 footer {
 	background-color: #fafafa;
 	flex: 1 0 100%;
+	margin-top: 3em;
+	border-top: 2px solid #a2a2a2
 }
 img {
 	width: 100%;
