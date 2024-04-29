@@ -1,0 +1,128 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+    position: relative;
+}
+
+header {
+    padding: 1em 0.5em 0;
+}
+
+h1 {
+    width: 6em;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(91, 101, 187);
+    padding-top: 0.25em;
+}
+
+h2 li a {
+    color: rgb(91, 101, 187);
+    font-weight: bold;
+}
+
+.main h2 {
+    padding-top: 0.5em;
+    font-size: 2em;
+}
+
+.secondary h2 {
+    padding-top: 0.5em;
+    font-size: 1.5em;
+}
+
+.tertiary h2 {
+    padding-top: 0.5em;
+    font-size: 1.25em;
+    border-top: 0.10em solid rgb(91, 101, 187);
+}
+
+p {
+    color: rgb(102, 102, 102);
+    font-family: sans-serif;
+    padding-bottom: 1.75em;
+    line-height: 1.25em;
+}
+
+li {
+    list-style-type: none;
+    line-height: 1.25em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(red);
+}
+
+nav {
+    padding: 1em 0;
+    font-family: sans-serif;
+}
+
+h2 p figcaption {
+    margin: 0.5em;
+}
+
+figcaption {
+    font-family: sans-serif;
+    font-style: oblique;
+    color: rgb(102, 102, 102);
+    padding: 0.5em 0 1.2em;
+}
+
+aside {
+    background-color: rgb (102 102 102);
+    padding: 1em 0.5em;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+ footer {
+    background-color: rgb(91, 101, 187);
+ }
+
+ footer p {
+    color: rgb(255, 255, 255);
+    padding: auto;
+    padding-top: 0.50em;
+ }
+
+ @media screen and (min-width: 40em) {
+    nav ul li {
+        display: inline;
+        margin-right: 0.75em;
+    }
+
+    header {
+        padding: 1em 0 0 0;
+    }
+
+    h2 p figcaption {
+        margin: 0;
+    }
+
+    p {
+        padding-bottom: 0.75em;
+    }
+
+    aside p {
+        margin: 0 0 0.75em 0;
+    }
+
+    main p {
+        margin: 0 0 1em 0;
+    }
+ }
