@@ -7,7 +7,12 @@ header {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "brother-1816";
+    font-size: 1em;
+    font-display:auto;
+    font-style:normal;
+    font-weight:400;
+    font-stretch:normal;
 }
 
 div.container, div.home-container {
@@ -20,15 +25,15 @@ h1 {
 }
 
 h2 {
-    font-family: serif;
+    font-family: "p22-mackinac-pro";
     font-size: 1.5em;
     font-weight: bold;
-    color: rgb(108, 155, 201);
+    color: #E07400;
     padding-top: 0.25em;
 }
 
 h2 li a {
-    color: rgb(145, 185, 224);
+    color: #FBAC0E;
     font-weight: bold;
 }
 
@@ -45,13 +50,15 @@ h2 li a {
 .tertiary h2 {
     padding-top: 0.5em;
     font-size: 1.25em;
-    border-top: 0.10em solid rgb(145, 185, 224);
+    border-top: 0.10em solid #F3C05A;
 }
 
 p {
     color: #808080;
-    font-family: sans-serif;
+    font-family: "brother-1816";
+    font-size: 1rem;
     padding-bottom: 1.75em;
+    padding-top: 0.5em;
     line-height: 1.25em;
 }
 
@@ -74,7 +81,7 @@ h2 p figcaption {
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: "brother-1816";
     font-style: oblique;
     color: rgb(102, 102, 102);
     padding: 0.5em 0 1.2em;
@@ -92,7 +99,7 @@ img {
 
  footer {
     width: 100%;
-    background: rgb(145, 185, 224);
+    background: #BEAA37;
     padding: .5em;
     box-sizing: border-box;
  }
@@ -106,11 +113,12 @@ nav ul li {
 
 nav ul li a{
     font-weight: bold;
-    color: rgb(122, 166, 210);
+    font-family: "brother-1816";
+    color: #86C5E7
 }
 
 nav ul li a:hover{
-    color: #f00;
+    color: #FBAC0E;
 }
 
  @media only screen and (min-width: 60em) {
