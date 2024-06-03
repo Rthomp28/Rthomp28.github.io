@@ -11,7 +11,6 @@
                 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
                 <meta http-equiv="Pragma" content="no-cache" />
                 <meta http-equiv="Expires" content="0" />
-            
         </head>	
 
         <body>
@@ -20,7 +19,7 @@
                 <header>
                     <h1>
                         <a href="index.html">
-                        <img src="onward_magazine_logo.svg" alt="black letters that spell the word onward"/>
+                        <img src="onward_magazine_logo.svg" alt="onward."/>
                         </a>
                     </h1>
 
@@ -39,48 +38,70 @@
 
                 <h2>Subscribe to onward's newsletter!</h2>
 
-                <form>
-                <section class="input-fields">
+                <main>
+                    <div class="newsletter">
                     <h3>Personal Information</h3>
-                        <ul>
-                            <li>
-                                <label for="firstname">First Name:</label>
-                                <input id="firstname" type="text" name="firstname" placeholder="First Name (required)" required="">
-                            </li>
+                <form>
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" name="name" placeholder="Name (required)" required="">
+                        </li>
 
-                            <li>
-                                <label for="lastname">Last Name:</label>
-                                <input id="lastname" type="text" name="lastname" placeholder="Last Name (required)" required="">
-                            </li>
-                        
-                            <li>
-                                <label for="email">Email Address:</label>
-                                <input id="email" type="email" name="email" placeholder="Email Address (required)" required="">
-                            </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" name="email" placeholder="Email (required)" required="">
+                        </li>
 
-                            <li>
-                                <label for="email">City:</label>
-                                <input id="city" type="text" name="city" placeholder="City (required)" required="">
-                            </li>
+                        <li>
+                            <label for="street-address">Street Address:</label>
+                            <input id="address" type="address" name="address" placeholder="Address (required)" required="">   
+                        </li>
 
-                            <li>
-                                <label for="email">State:</label>
-                                <input id="state" type="text" name="state" placeholder="State (required)" required="">         
-                            </li>
-                        </ul>
-                </section>
+                        <li>
+                            <label for="city">City:</label>
+                            <input class="city" type="city" name="city" placeholder="City (required)" required="">   
+                        </li>
 
-                <section class="feedback">
-                    <h3>Comments and feedback</h3>
-                        <textarea id="feedback" name="feedback"></textarea>
-                </section>
+                        <li>
+                            <label for="state">State:</label>
+                            <input class="state" type="state" name="state" placeholder="State (required)" required="">   
+                        </li>
+                    </ul>
 
-                <button type="submit">Subscribe</button>
+                    <h3>Subscription type</h3>
+
+                    <input id="digital-access" type="checkbox" name="subscription-type" value="digital-access">
+                    <label for="digital-access">Digital Access</label>
+
+                    <br>
+
+                    <input id="prited-magazine" type="checkbox" name="subscription-type" value="prited-magazine">
+                    <label for="printed-magazine">Printed Magazine</label>
+
+                    <br>
+
+                    <input id="printed-and-digital" type="checkbox" name="subscription-type" value="printed-and-digital">
+                    <label for="printed-and-digital">Printed and Digital Access</label>
+
+                    <br>
+                      
+
+                    <button>Subscribe</button>
+
+                    <figure>
+                        <img src="surf_article_1.jpg" alt="Van with towels and surfboards beside it.">
+                    </figure>
+                    
+
                 </form>
+                </div>
+                </main>
 
                 <footer>
                     <p>All Rights Reserved.</p>
                 </footer>
+
             </div>
         </body>
     </html>
