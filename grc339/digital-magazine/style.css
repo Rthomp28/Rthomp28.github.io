@@ -206,6 +206,36 @@ div.gallery-container input {
     display: none;
 }
 
+div.newsletter-container {
+    max-width: 60em;
+    padding: 0 1em;
+}
+
+div.newsletter-container input {
+    max-width: 60em;
+    margin: 0 auto 3em;
+    display: grid;
+}
+
+section.feedback textarea {
+    color: #808080;
+    font-family: "brother-1816";
+    font-size: 1rem;
+    min-width: 25em;
+    font-style: normal;
+}
+
+form ul {
+    list-style-type: none;
+}
+
+section.input-fields {
+    margin-left: 0;
+}
+
+form section.input-fields li {
+    display: grid;
+}
  @media only screen and (min-width: 60em) {
 
     div.home-container {
@@ -299,6 +329,22 @@ div.gallery-container input {
 
     section.secondary a p {
         flex: 0 0 4em;
+    }
+
+    section.feedback {
+        grid-row: 2/3;
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: 40% auto;
+        grid-column-gap: 2em;
+    }
+
+   
+
+    section.input-fields {
+        grid-row: 2;
     }
 
     }

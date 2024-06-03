@@ -15,7 +15,7 @@
         </head>	
 
         <body>
-            <div class="container">
+            <div class="newsletter-container">
                 
                 <header>
                     <h1>
@@ -32,26 +32,51 @@
 						<li><a href="#">Culture</a></li>
 						<li><a href="#">About Us</a></li>
                         <li><a href="photogallery.html">Photo Gallery</a></li>
-						<li><a href="newsletter.html">Subscribe to our newsletter</a></li>
+						<li><a href="newsletter.html">Subscribe</a></li>
                     </ul>
                     </nav>                   
                 </header>
 
-                <main class="newsletter">
-
                 <h2>Subscribe to onward's newsletter!</h2>
 
                 <form>
-                <section class="input fields">
+                <section class="input-fields">
                     <h3>Personal Information</h3>
-                            <label for="firstname">First Name:</label>
-                            <input id="firstname" type="text" name="firstname" placeholder="First Name (required)" required="">
-                            <label for="email">Email Address:</label>
-                            <input id="email" type="email" name="email" placeholder="Email Address (required)" required=""> 
+                        <ul>
+                            <li>
+                                <label for="firstname">First Name:</label>
+                                <input id="firstname" type="text" name="firstname" placeholder="First Name (required)" required="">
+                            </li>
 
-                        </li></ul>
-                </main> 
+                            <li>
+                                <label for="lastname">Last Name:</label>
+                                <input id="lastname" type="text" name="lastname" placeholder="Last Name (required)" required="">
+                            </li>
+                        
+                            <li>
+                                <label for="email">Email Address:</label>
+                                <input id="email" type="email" name="email" placeholder="Email Address (required)" required="">
+                            </li>
 
+                            <li>
+                                <label for="email">City:</label>
+                                <input id="city" type="text" name="city" placeholder="City (required)" required="">
+                            </li>
+
+                            <li>
+                                <label for="email">State:</label>
+                                <input id="state" type="text" name="state" placeholder="State (required)" required="">         
+                            </li>
+                        </ul>
+                </section>
+
+                <section class="feedback">
+                    <h3>Comments and feedback</h3>
+                        <textarea id="feedback" name="feedback"></textarea>
+                </section>
+
+                <button type="submit">Subscribe</button>
+                </form>
 
                 <footer>
                     <p>All Rights Reserved.</p>
