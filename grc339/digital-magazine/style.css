@@ -130,6 +130,16 @@ div.container, div.home-container {
     margin: auto;
 }
 
+/*gallery*/
+div.gallery-container header {
+    padding: 1em 0 0 0;
+}
+
+div.gallery-container h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 div.gallery-container body {
     font-family: "brother-1816";
 	line-height: 1.4em;
@@ -138,11 +148,6 @@ div.gallery-container body {
 	box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-div.gallery-container h1 {
-    padding-top: 1em;
-    margin-bottom: 1em;
 }
 
 div.gallery-container image {
@@ -253,26 +258,6 @@ li {
     line-height: 1.5em;
 }
 
-@media screen and (prefers-color-scheme: dark) {
-
-    div.home-container {
-        background-color: #808080;
-    }
-
-    div.container, div.home-container {
-        max-width: 40em;
-        margin: auto;
-        background-color: #808080;
-    }
-
-    h1 {
-    background-image: "onward_magazine_logo.svg" alt="onward.";
-    background-repeat: no-repeat;  
-    background-size: contain;
-    opacity: 0;
-    }
-}
-
  @media only screen and (min-width: 60em) {
 
     div.home-container {
@@ -298,9 +283,9 @@ li {
         padding: 1em;
     }
     
-
     header, footer {
         grid-column: 1/3;
+        padding: 1rem 0 0 0;
     }
 
     div.home-container main {
@@ -394,3 +379,38 @@ li {
         margin: 0 0 1em 0;
     }
  
+    @media screen and (prefers-color-scheme: dark) {
+
+        body {
+            background-color: #31302c;
+        }
+
+        img.logo-light {
+            opacity: 0;
+        }
+    
+       h1 {
+        background-image: url("onward_magazine_alt_logo.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+
+        p, figcaption, label, aside.home p {
+        color: rgb(246, 244, 238);
+        }
+
+        div.gallery-container {
+            background-color: #31302c;
+            max-width: 60em;
+            margin: 0 auto;
+            padding: 1em;
+        }
+
+        div.newsletter-container {
+            background-color: #31302c;
+            margin: auto;
+            position: relative;
+            max-width: 50em;
+            font-family: "brother-1816";
+        }
+    }
